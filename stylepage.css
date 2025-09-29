@@ -1,0 +1,29 @@
+body {
+  background-color: lightsteelblue;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  border-bottom: 5px solid white;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
