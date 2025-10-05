@@ -13,8 +13,9 @@ a:hover {
 }
 
 .aboutUs {
+  margin-left: 20%;
+  margin-right: 20%;
   max-width: 60%;
-  text-align: center;
 }
 
 
