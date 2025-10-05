@@ -4,7 +4,11 @@ body {
 }
 
 a:link {
-  color: #000000;
+  color: #4CE474;
+}
+
+a:hover {
+  color: #E8B834;
 }
 
 nav ul {
@@ -13,7 +17,7 @@ nav ul {
   justify-content: center;
   justify-content: center;
   border-bottom: 5px solid white;
-  background-color: 79ABED;
+  background-color: #79ABED;
 }
 
 nav ul li {
