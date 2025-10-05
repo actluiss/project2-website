@@ -18,6 +18,17 @@ a:hover {
   max-width: 60%;
 }
 
+.resources {
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+}
+
+.techHero {
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+}
 
 nav ul {
   list-style: none;
