@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+a:link {
+  color: #000000;
+}
+
 nav ul {
   list-style: none;
   display: flex;
