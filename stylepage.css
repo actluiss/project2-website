@@ -4,17 +4,17 @@ body {
 }
 
 a:link {
-  color: #B28D24;
+  color: #AD201B;
 }
 
 a:hover {
-  color: #AD201B;
+  color: red;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  font-size: 20 px
+  font-size: 20px;
   justify-content: center;
   justify-content: center;
   border-bottom: 5px solid white;
