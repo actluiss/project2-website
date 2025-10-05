@@ -12,6 +12,10 @@ a:hover {
   color: red;
 }
 
+.aboutUs {
+  width: 60%;
+}
+
 
 nav ul {
   list-style: none;
