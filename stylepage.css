@@ -5,10 +5,13 @@ body {
 
 a:link {
   color: #AD201B;
+  text-decoration: none;
 }
 
 a:hover {
   color: red;
+  text-decoration: none;
+
 }
 
 nav ul {
