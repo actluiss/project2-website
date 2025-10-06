@@ -5,12 +5,12 @@ body {
   text-align: center;
 }
 
-<!--Unvisited Link Color-->
+<!--Regular Link Properties-->
 a:link {
   color: #AD201B;
 }
 
-<!--Hovered Link Color-->
+<!--Hovered Link Properties>
 a:hover {
   color: red;
 }
