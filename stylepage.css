@@ -1,11 +1,11 @@
-<!-- Main website color, and text properties -->
+<!--Main website color and text properties-->
 body {
   background-color: lightsteelblue;
   font-family: Verdana, "Times New Roman", serif;
   text-align: center;
 }
 
-<!--Unvisited Link Color>
+<!--Unvisited Link Color-->
 a:link {
   color: #AD201B;
 }
@@ -15,19 +15,19 @@ a:hover {
   color: red;
 }
 
-<!-- Adjusting the alignment of text for About Us section-->
+<!--Adjusting the alignment of text for About Us section-->
 .aboutUs {
   margin-left: 15%;
   margin-right: 15%;
 }
 
-<!-- Adjusting the alignment of text for Resources section-->
+<!--Adjusting the alignment of text for Resources section-->
 .resources {
   margin-left: 15%;
   margin-right: 15%;
 }
 
-<!-- Adjusting the alignment of text for Tech Hero section-->
+<!--Adjusting the alignment of text for Tech Hero section-->
 .techHero {
   margin-left: 15%;
   margin-right: 15%;
