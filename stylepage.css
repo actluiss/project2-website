@@ -1,39 +1,32 @@
-<!--Main website properties-->
 body {
   background-color: lightsteelblue;
   font-family: Verdana, "Times New Roman", serif;
   text-align: center;
 }
 
-<!--Regular Link Properties-->
 a:link {
   color: #AD201B;
 }
 
-<!--Hovered Link Properties-->
 a:hover {
   color: red;
 }
 
-<!--Adjusting the alignment in About Us section-->
 .aboutUs {
   margin-left: 15%;
   margin-right: 15%;
 }
 
-<!--Adjusting the alignment in Resources section-->
 .resources {
   margin-left: 15%;
   margin-right: 15%;
 }
 
-<!--Adjusting the alignment in Tech Hero section-->
 .techHero {
   margin-left: 15%;
   margin-right: 15%;
 }
 
-<!--Navigation Bar Settings-->
 nav ul {
   list-style: none;
   display: flex;
@@ -45,13 +38,11 @@ nav ul {
   border-bottom: 5px solid white;
 }
 
-<!--Further nav settings-->
 nav ul li {
   display: inline;
   margin: 0 20px;
 }
 
-<!--Header properties-->
 h1,
 h2,
 h3,
@@ -60,7 +51,6 @@ h4 {
   font-family: Verdana, "Times New Roman", serif;
 }
 
-<!--Footer properties-->
 footer {
   position: relative;
   font-size: 20px;
