@@ -1,3 +1,4 @@
+/* Sets the background color, font, and text alignment for the entire page */
 body {
   background-color: lightsteelblue;
   font-family: Verdana, "Times New Roman", serif;
@@ -8,6 +9,7 @@ a:link {
   color: #AD201B;
 }
 
+/* Changes link color when the user hovers over it */
 a:hover {
   color: red;
 }
@@ -27,6 +29,7 @@ a:hover {
   margin-right: 15%;
 }
 
+/* Nav style */
 nav ul {
   list-style: none;
   display: flex;
@@ -43,6 +46,7 @@ nav ul li {
   margin: 0 20px;
 }
 
+/* Changes color/font for h1-h4 headings */
 h1,
 h2,
 h3,
@@ -50,7 +54,7 @@ h4 {
   color: white;
   font-family: Verdana, "Times New Roman", serif;
 }
-
+/* Footer Style */
 footer {
   position: relative;
   font-size: 20px;
