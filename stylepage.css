@@ -62,3 +62,9 @@ footer {
   bottom: 0;
   color: white;
 }
+
+/*teachablemachine */
+.machine-link {
+  text-align: center;  
+  margin: 20px 0; 
+}
