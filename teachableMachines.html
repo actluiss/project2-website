@@ -21,41 +21,53 @@
     <h1>Project Statement and Buolamwini Unmasking AI</h1>
 
 	<div class="resources">
-    <p>
-      For our teachable machine, we agreed that eye color would be an interesting subject. 
-      Especially because it could be easily tested if you had enough brightness for a user’s camera 
-      to view the user’s eye color, and see how camera quality picks up different colors. 
-      It wouldn’t require anything except a zoom function or willingness to get closer to a camera.
+	<p> 
+		For our teachable machine, we agreed that eye color would be an interesting subject to explore. 
+		Especially because it could be easily tested if you had enough brightness for a user’s camera to view the user’s eye color, and see how camera quality picks up different colors. 
+		It wouldn’t require anything except a Zoom function or a willingness to get closer to a camera. This machine identifies three of the most common eye colors: Brown, Blue, and Green. 
+		Using life images or images available from websites for educational purposes, we added a variety of different images to help with combating potential biases, as well as trying to focus solely on the iris and the white part of the eye. 
+		As we were still testing the machines with stock images uploaded into the model, it would struggle to determine eye color. So we continued adding images in order to add more accuracy to our model and be able to differentiate when there are different lighting conditions or eye colors that are similar to others. 
+		For example, we looked up stock images of brown eyes to continue honing the machine’s ability to decipher eye color without being distracted by additional characteristics of the photo, including eye makeup, pose, and lighting. 
+		If the machine incorrectly identified the color, the stock photo was added to the brown eye category in order to hopefully correct the mistake. This process was repeated for each eye color, and photos taken by the three of us were also added to each category.
+	</p>
 
-	  This machine identifies three of the most common eye colors: Brown, Blue, Green. Using life images or 
-    images available from websites for educational purposes, we added a variety of different images to help with 
-    combatting potential biases, as well trying to focus solely on the iris and the white part of the eye.
+<p> 
+	There are many lessons to be learned from Unmasking AI, and many of those fit into what we are doing to complete this project. Something that has been on our minds is the biases that could be part of the engine that hosts and creates the learning model we are adding data to for this project. 
+	Taking the time to limit biases in our data has been time-consuming, but very much worth it to allow for more users to take part in the model. It also ensures further proper identification of different eye colors, as all eye colors are unique and may follow closer to one color or another depending on the lighting (say those with green-blue eyes or green-brown eyes). 
+	As Buolamwini discovered a lack of representation in the coded gaze, we noticed a lack of representation when searching for images to train our machine. 
+	When looking for photos of green and blue eyes, the images included virtually only white men and women. While it is less common for people of color to have blue or green eyes, there are a large number of photos that come up when searching “green eyes person of color”. 
+	However, these images do not appear when searching simply for “green eyes”. Even when searching for brown eyes, which are much more common among people of color, the photos primarily include white people. This is an example of white normativity, or the phenomenon of the white or European culture being considered the default in a society. 
+	As seen in our photo search, when race is not specified, images of white people appear. Photos of people of color are only found when they are specified in the search.
+</p>
 
-	  As we were still testing the machines with stock images uploaded into the model, it would struggle to 
-    determine eye color. So we continued adding images in order to add more accuracy to our model and be able to 
-    differentiate when there are different lighting conditions or eye colors that are similar to others. For 
-    example, we looked up stock images of brown eyes to continue honing the machine’s ability to decipher 
-    eye color without being distracted by additional characteristics of the photo including eye makeup, pose, and 
-    lighting. If the machine incorrectly identified the color, the stock photo was added to the brown eye category 
-    in order to hopefully correct the mistake. This process was repeated for each eye color, and photos taken by the 
-    three of us were also added to each category.
+<p>
+	Another lesson that resonated strongly from Buolamwini’s work is the importance of transparency and explainability in AI systems. We discovered that as we developed our eye color categorization algorithm that even minor biases in our training set could have a significant impact on the results. 
+	For example, lighting, camera angle, and image quality all influenced the model’s predictions. This made it understandable that a model is only as fair and accurate as the data it learns from, and that knowing the limitations of AI is important. 
+	Buolamwini highlights that, in the absence of transparency, AI systems may unintentionally increase current social inequities. In order to ensure that we could explain how the model functions and why it makes particular decisions, we specified how we gathered photographs, classified eye colors, and repeatedly fixed errors.
+</p>
 
-    </p>
+<p>
+	In addition to technical fairness, we thought about the user experience and accessibility of our model. Unmasking AI discusses how AI systems often fail to account for their users' diversity, leading to exclusion or misclassification. We wanted to ensure that anyone who used our algorithm, regardless of skin tone, eye shape, or camera quality, had a chance of making accurate predictions. 
+	This included not only expanding the range of images in our training set, but also testing the algorithm under multiple circumstances and with different participants. This allowed us to gain a better understanding of our model's real-world limitations and the effort required to create AI that serves a wide range of people.
+</p>
+
+<p>
+	Another insight from the book that became apparent in our project is the need for continuous improvement. According to Buolamwini's research, AI systems frequently go through ongoing improvement to lessen bias, and our experience proved this. We considered the possibility that the algorithm's misidentification of an eye color was caused by insufficient data, dim lighting, or hidden bias in the original photos. 
+	We then added targeted images to address these flaws. Although it took a while, this repeated method was necessary to create a more reliable and fair model. It also made us appreciate that AI development is not just about coding; it is about careful observation, critical thinking, and ongoing testing. While reflecting on the ethical aspects, we also considered the broader implications of using AI. 
+	Unmasking AI warns that biased systems can perpetuate stereotypes and inequities, even if unintentionally. While our eye color classifier appears to be harmless, it served as a small-scale demonstration of how seemingly simple AI tools can reflect societal biases. 
+</p>
+
+<p>
+	Finally, the project demonstrated to us the importance of collaboration and different viewpoints in AI work. As a group, we were able to identify biases, recommend additional image resources, and discuss possible errors that one person might have missed. Buolamwini's work emphasizes the importance of diverse voices in identifying and mitigating bias in technology, which our experience demonstrated in practice. 
+	By combining our observations, testing, and adjustments, we were able to create a more inclusive and accurate model than any of us could have done alone. This project has given us a better understanding of the importance of representation and diversity in AI systems. We now understand that even minor biases in training data can have a significant impact on outcomes, and that developing efficient AI requires continuous reflection, testing, and adjustment. 
+	Buolamwini's work reminds us that AI is not neutral, and that ethical concerns must be fundamental to all stages of development.
+</p>
+</div>
+    
 
     <a href="https://editor.p5js.org/mzierer-creator/sketches/evQb-8__7" target="_blank">View our machine here!</a
     >
-	<p>
-		There are many lessons to be learned from Unmasking AI, and many of those fit into what we are doing to complete this project. 
-		Something that has been on our minds is the biases that could be part of the engine that hosts and creates the learning model 
-		we are adding data to for this project. Taking the time to limit biases in our data has been time-consuming, but very much worth 
-		it to allow for more users to take part in the model. It also ensures further proper identification of different eye colors, as 
-		all eye colors are unique and may follow closer to one color or another depending on the lighting (say those with green-blue eyes 
-		or green-brown eyes).
-		As Buolamwini discovered a lack of representation in the coded gaze, we noticed a lack of representation when searching for 
-		images to train our machine. When looking for photos of green and blue eyes, the images included virtually only white men and women. 
-		While it is less common for people of color to have blue or green eyes, there are a large number of photos that come up when searching 
-		“green eyes person of color”. However, these images do not appear when searching simply “green eyes”.  
-	</p>
+	
 		<img
       src="green1.png"
       alt="green eyes search"
@@ -66,11 +78,7 @@
       alt="green eyes search"
       width="400"
     />
-		<p>Even when searching for brown eyes, 
-		which are much more common among people of color, the photos primarily include white people. This is an example of white normativity, or the 
-		phenomenon of the white or European culture being considered the default in a society. As seen in our photo search, when race is not specified, 
-		images of white people appear. Photos of people of color are only found when they are specified in the search.
-	</p>
+
 		<img
       src="brown.png"
       alt="brown eyes search"
