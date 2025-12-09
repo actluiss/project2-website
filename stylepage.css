@@ -30,15 +30,19 @@ a:hover {
 }
 
 /* Nav style */
+nav {
+  background-color: lightgray;
+  padding: 10px 0;
+  border-bottom: 3px solid white;
+}
+
 nav ul {
-  list-style: none;
-  display: flex;
-  font-size: 20px;
-  text-decoration: none;
-  font-family: Verdana, "Times New Roman", serif;
+list-style: none; 
+  display: flex; 
+  font-size: 20px; 
+  text-decoration: none; 
+  font-family: Verdana, "Times New Roman", serif; 
   justify-content: center;
-  justify-content: center;
-  border-bottom: 5px solid white;
 }
 
 nav ul li {
